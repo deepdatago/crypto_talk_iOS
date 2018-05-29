@@ -1,0 +1,81 @@
+/* Cancel button */
+"Cancel" = "Отменить";
+
+/* When selecting friend */
+"Choose a Friend" = "Выбрать друга";
+
+/* Prompt for confirm password */
+"Confirm New Password" = "Подтверди Новый Пароль";
+
+/* OK button */
+"OK" = "ОК";
+
+/* Button label to refresh an OTR session */
+"Refresh Session" = "Обновить сеанс";
+
+/* Button label to verify contact security */
+"Verify Contact" = "Проверить ключ";
+
+/* username section */
+"Basic Setup" = "Создать Zom ID";
+
+/* The placeholder text in the chat view where the message should go */
+"Send %@ encrypted message" = "Отправить защищенное сообщение";
+
+/* Cell text for creating a group */
+"Create a Group" = "Создать группу";
+
+/* The title for the view to add a buddy */
+"Add Buddy" = "Добавить друзей";
+
+/* Title for the about page */
+"About" = "О программе";
+
+/* Label in buddy list for users that are away */
+"Away" = "Отсутствует";
+
+/* Title for chats view */
+"Chats" = "Чаты";
+
+/* String for button to connect connect */
+"Connect" = "Подключение";
+
+/* Button to delete account */
+"Delete Account" = "Удалить учетную запись";
+
+/* The title for the view to enter a group chat name or label */
+"Group Name" = "Название группы";
+
+/* the name for jabber, also include (XMPP) at the end */
+"Jabber (XMPP)" = "Jabber/XMPP";
+
+/* string to bring up language selector */
+"Language" = "Язык";
+
+/* No comment provided by engineer. */
+"Me" = "Я";
+
+/* Label in buddy list for users that are offline */
+"Offline" = "Не в сети";
+
+/* Label text for password field on login screen */
+"Password" = "Пароль";
+
+/* Title for the Settings screen */
+"Settings" = "Настройки";
+
+/* Title for sharing a link to the app */
+"Share" = "Поделиться";
+
+/* To let the user know the fingerprint as been checked */
+"Verified" = "Проверено";
+
+/* Scan QR Code */
+"Scan" = "Сканировать";
+
+/* Share invite via SMS */
+"SMS" = "Короткое сообщение";
+
+/* The placeholder text in the chat view where the message should go */
+"Send plaintext message" = "Отправить сообщение";
+

@@ -1,0 +1,113 @@
+/* Cancel button */
+"Cancel" = "Annulla";
+
+/* When selecting friend */
+"Choose a Friend" = "Scegli un amico";
+
+/* Prompt for confirm password */
+"Confirm New Password" = "Conferma nuova password";
+
+/* Button label to refresh an OTR session */
+"Refresh Session" = "Aggiorna sessione";
+
+/* Table view section header */
+"Secure Identity" = "Identità Sicura";
+
+/* Button label to verify contact security */
+"Verify Contact" = "Verifica contatto";
+
+/* username section */
+"Basic Setup" = "Crea un ID Zom";
+
+/* The placeholder text in the chat view where the message should go */
+"Send %@ encrypted message" = "Invia messaggio privato";
+
+/* Cell text for creating a group */
+"Create a Group" = "Crea un gruppo";
+
+/* The title for the view to add a buddy */
+"Add Buddy" = "Aggiungi amici";
+
+/* Button to switch the chat over to the migrated account */
+"Switch" = "Chatta ora";
+
+/* default string to revert to normal language behaviour */
+"Default" = "Predefinita";
+
+/* Title for the about page */
+"About" = "Informazioni";
+
+/* segmented control value for active friends
+   This will be displayed in the UI as 'Active 10m ago'  */
+"Active" = "Attiva";
+
+/* String to describe advanced set of settings */
+"Advanced" = "Avanzate";
+
+/* Noun. segmented control value for displaying archived conversations
+   Verb. action for archiving an old conversation */
+"Archive" = "Archivio";
+
+/* Label in buddy list for users that are away */
+"Away" = "Assente";
+
+/* Title for chats view */
+"Chats" = "Chat";
+
+/* String for button to connect connect */
+"Connect" = "Connetti";
+
+/* action button for deleting something */
+"Delete" = "Elimina";
+
+/* Button to delete account */
+"Delete Account" = "Elimina account";
+
+/* Title for button to press when user is finished */
+"Done" = "Fatto";
+
+/* The title for the view to enter a group chat name or label */
+"Group Name" = "Nome gruppo";
+
+/* segmented control value for active conversations */
+"Inbox" = "Attiva";
+
+/* No comment provided by engineer. */
+"Me" = "Io";
+
+/* Title for button to start migration tool */
+"Migrate Account" = "Migra account";
+
+/* String for XMPP buddies when adding buddy is pending */
+"Pending Approval" = "Approvazione in attesa";
+
+/* Title for the Settings screen */
+"Settings" = "Impostazioni";
+
+/* Title for sharing a link to the app */
+"Share" = "Condividi";
+
+/* To let the user know the fingerprint as been checked */
+"Verified" = "Verificato";
+
+/* Option to leave a group chat */
+"Leave" = "Esci";
+
+/* Scan QR Code */
+"Scan" = "Scansiona";
+
+/* Shown to confirm destructive actions */
+"Are you sure?" = "Sei sicuro?";
+
+/* This will be shown after your own JID in the group profile view */
+"you" = "tu";
+
+/* Message for leave group prompt */
+"Your group chat history will be wiped away. To keep these chats, archive the group instead." = "La cronologia della chat di gruppo verrà eliminata. Per conservare queste chat, dovresti archiviare il gruppo.";
+
+/* Label for notifications switch */
+"Notifications" = "Notifiche";
+
+/* The placeholder text in the chat view where the message should go */
+"Send plaintext message" = "Invia un messaggio";
+

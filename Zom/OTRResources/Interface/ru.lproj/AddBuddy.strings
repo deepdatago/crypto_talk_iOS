@@ -1,0 +1,15 @@
+/* Class = "UILabel"; text = "GOT INVITED?"; ObjectID = "AqM-V0-Y5G"; */
+"AqM-V0-Y5G.text" = "ПОЛУЧИЛИ ПРИГЛАШЕНИЕ?";
+
+/* Class = "UILabel"; text = "Advanced"; ObjectID = "OfJ-vA-D7O"; */
+"OfJ-vA-D7O.text" = "Расширенные";
+
+/* Class = "UIButton"; normalTitle = "SMS"; ObjectID = "YNA-R3-ip3"; */
+"YNA-R3-ip3.normalTitle" = "Короткое сообщение";
+
+/* Class = "UIButton"; normalTitle = "Scan"; ObjectID = "hDU-3X-Uni"; */
+"hDU-3X-Uni.normalTitle" = "Сканировать";
+
+/* Class = "UIButton"; normalTitle = "Share"; ObjectID = "keg-Ok-RMI"; */
+"keg-Ok-RMI.normalTitle" = "Поделиться";
+

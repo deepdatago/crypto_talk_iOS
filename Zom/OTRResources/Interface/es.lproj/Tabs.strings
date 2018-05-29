@@ -1,0 +1,24 @@
+/* Class = "UIButton"; normalTitle = "Photo Stream"; ObjectID = "2YO-2a-YcG"; */
+"2YO-2a-YcG.normalTitle" = "Lista de fotos compartidas";
+
+/* Class = "UIButton"; normalTitle = "Change Theme"; ObjectID = "Dxr-5S-HbB"; */
+"Dxr-5S-HbB.normalTitle" = "Cambiar tema";
+
+/* Class = "UITabBarItem"; title = "Friends"; ObjectID = "LlX-wc-bzj"; */
+"LlX-wc-bzj.title" = "Amigos";
+
+/* Class = "UIButton"; normalTitle = "Create a Group"; ObjectID = "WPP-eD-yKO"; */
+"WPP-eD-yKO.normalTitle" = "Crear un grupo";
+
+/* Class = "UITabBarItem"; title = "Chats"; ObjectID = "XJU-FY-mH5"; */
+"XJU-FY-mH5.title" = "Conversaciones";
+
+/* Class = "UIButton"; normalTitle = "Sticker Share"; ObjectID = "iZ8-ah-hqP"; */
+"iZ8-ah-hqP.normalTitle" = "Compartir con etiquetas";
+
+/* Class = "UITabBarItem"; title = "Me"; ObjectID = "pL4-Qt-LL4"; */
+"pL4-Qt-LL4.title" = "Yo";
+
+/* Class = "UICollectionViewController"; title = "Photo Stream"; ObjectID = "9Rk-Yf-uRu"; */
+"9Rk-Yf-uRu.title" = "Lista de fotos compartidas";
+

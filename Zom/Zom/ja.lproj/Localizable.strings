@@ -1,0 +1,125 @@
+/* Cancel button */
+"Cancel" = "キャンセル";
+
+/* When selecting friend */
+"Choose a Friend" = "友達を選択";
+
+/* Prompt for confirm password */
+"Confirm New Password" = "新しいパスワードを確認";
+
+/* Button label to refresh an OTR session */
+"Refresh Session" = "セッションを更新";
+
+/* Table view section header */
+"Secure Identity" = "セキュアID";
+
+/* Button label to verify contact security */
+"Verify Contact" = "連絡先を検証";
+
+/* username section */
+"Basic Setup" = "Zom ID を作成";
+
+/* for choosing your XMPP vCard display name */
+"Nickname" = "ニックネーム";
+
+/* The placeholder text in the chat view where the message should go */
+"Send %@ encrypted message" = "安全にメッセージを送信";
+
+/* Cell text for creating a group */
+"Create a Group" = "グループチャットを作成";
+
+/* The title for the view to add a buddy */
+"Add Buddy" = "友達を追加";
+
+/* Button to switch the chat over to the migrated account */
+"Switch" = "今すぐチャット";
+
+/* default string to revert to normal language behaviour */
+"Default" = "デフォルト";
+
+/* Title for the about page */
+"About" = "アプリについて";
+
+/* segmented control value for active friends
+   This will be displayed in the UI as 'Active 10m ago'  */
+"Active" = "アクティブ";
+
+/* String to describe advanced set of settings */
+"Advanced" = "上級";
+
+/* Noun. segmented control value for displaying archived conversations
+   Verb. action for archiving an old conversation */
+"Archive" = "アーカイブ";
+
+/* Label in buddy list for users that are away */
+"Away" = "退席中";
+
+/* Title for chats view */
+"Chats" = "チャット";
+
+/* String for button to connect connect */
+"Connect" = "接続";
+
+/* action button for deleting something */
+"Delete" = "削除";
+
+/* Button to delete account */
+"Delete Account" = "アカウントを削除";
+
+/* Title for button to press when user is finished */
+"Done" = "完了";
+
+/* The title for the view to enter a group chat name or label */
+"Group Name" = "グループ名";
+
+/* segmented control value for active conversations */
+"Inbox" = "アクティブ";
+
+/* string to bring up language selector */
+"Language" = "言語";
+
+/* No comment provided by engineer. */
+"Me" = "自分";
+
+/* Title for button to start migration tool */
+"Migrate Account" = "アカウントを移行";
+
+/* Label in buddy list for users that are offline */
+"Offline" = "オフライン";
+
+/* Label text for password field on login screen */
+"Password" = "パスワード";
+
+/* String for XMPP buddies when adding buddy is pending */
+"Pending Approval" = "承認の保留中";
+
+/* Title for the Settings screen */
+"Settings" = "設定";
+
+/* Title for sharing a link to the app */
+"Share" = "共有";
+
+/* To let the user know the fingerprint as been checked */
+"Verified" = "検証済";
+
+/* This will be shown after your own JID in the group profile view */
+"you" = "自分";
+
+/* Option to leave a group chat */
+"Leave" = "離れる";
+
+/* Scan QR Code */
+"Scan" = "スキャン";
+
+/* Shown to confirm destructive actions */
+"Are you sure?" = "よろしいですか?";
+
+/* Message for leave group prompt */
+"Your group chat history will be wiped away. To keep these chats, archive the group instead." = "グループチャットの履歴は消去されます。これらのチャットを残すには、代わりにグループをアーカイブしてください。";
+
+/* Label for notifications switch */
+"Notifications" = "通知";
+
+/* The placeholder text in the chat view where the message should go */
+"Send plaintext message" = "メッセージを送信";
+

@@ -1,0 +1,81 @@
+/* Cancel button */
+"Cancel" = "ألْغ";
+
+/* When selecting friend */
+"Choose a Friend" = "اختيار صديق";
+
+/* Prompt for confirm password */
+"Confirm New Password" = "تأكيد كلمة السر الجديدة";
+
+/* OK button */
+"OK" = "موافق";
+
+/* Button label to refresh an OTR session */
+"Refresh Session" = "تحديث الجلسة";
+
+/* Button label to verify contact security */
+"Verify Contact" = "تحقق من جهة الاتصال";
+
+/* username section */
+"Basic Setup" = "إنشاء معرف Zom";
+
+/* for choosing your XMPP vCard display name */
+"Nickname" = "اسم المستعار";
+
+/* The placeholder text in the chat view where the message should go */
+"Send %@ encrypted message" = "أرسل رسالة آمنة";
+
+/* Cell text for creating a group */
+"Create a Group" = "إنشاء مجموعة";
+
+/* The title for the view to add a buddy */
+"Add Buddy" = "إضافة أصدقاء!";
+
+/* Title for the about page */
+"About" = "حول التطبيق";
+
+/* Label in buddy list for users that are away */
+"Away" = "بعيدا";
+
+/* Title for chats view */
+"Chats" = "محادثات";
+
+/* String for button to connect connect */
+"Connect" = "اتصال";
+
+/* action button for deleting something */
+"Delete" = "حذف";
+
+/* Button to delete account */
+"Delete Account" = "حذف الحساب";
+
+/* The title for the view to enter a group chat name or label */
+"Group Name" = "اسم المجموعة";
+
+/* string to bring up language selector */
+"Language" = "اللغة";
+
+/* No comment provided by engineer. */
+"Me" = "أنا";
+
+/* Label in buddy list for users that are offline */
+"Offline" = "غير متصل";
+
+/* Label text for password field on login screen */
+"Password" = "كلمة السر";
+
+/* Title for the Settings screen */
+"Settings" = "إعدادات";
+
+/* Title for sharing a link to the app */
+"Share" = "مشاركة";
+
+/* To let the user know the fingerprint as been checked */
+"Verified" = "تم التحقق";
+
+/* Scan QR Code */
+"Scan" = "مسح";
+
+/* The placeholder text in the chat view where the message should go */
+"Send plaintext message" = "أرسل رسالة";
+

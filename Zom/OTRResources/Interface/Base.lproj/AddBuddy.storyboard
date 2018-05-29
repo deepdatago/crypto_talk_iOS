@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="bG5-Ie-2L6">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="AhF-HR-wUz">
+            <objects>
+                <navigationController id="bG5-Ie-2L6" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="7Gb-TR-OhS">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="o4G-Cg-UOP" kind="relationship" relationship="rootViewController" id="cQK-Vx-xdm"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8E7-J4-uTl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1255" y="253"/>
+        </scene>
+        <!--Choose account-->
+        <scene sceneID="G2C-vi-Jx7">
+            <objects>
+                <viewController title="Choose account" id="o4G-Cg-UOP" customClass="ZomChooseAccountViewController" customModule="Zom" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="UZt-99-5o7"/>
+                        <viewControllerLayoutGuide type="bottom" id="CDh-NE-f8v"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="TlV-tS-AkW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="rBt-4g-aGz"/>
+                    <connections>
+                        <outlet property="cancelBarButtonItem" destination="DMr-B4-2yb" id="Hwe-tc-Atw"/>
+                        <segue destination="CMs-zP-DTu" kind="show" identifier="addNewBuddySegue" id="ja3-lg-ApE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oAY-Dl-57h" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationItem title="Title" id="FMY-5w-x2g">
+                    <barButtonItem key="rightBarButtonItem" systemItem="cancel" id="DMr-B4-2yb">
+                        <connections>
+                            <action selector="cancelButtonPressed:" destination="o4G-Cg-UOP" id="KJY-AR-iB8"/>
+                        </connections>
+                    </barButtonItem>
+                </navigationItem>
+            </objects>
+            <point key="canvasLocation" x="-487" y="253"/>
+        </scene>
+        <!--Zom New Buddy View Controller-->
+        <scene sceneID="2N8-jq-6Fg">
+            <objects>
+                <viewController storyboardIdentifier="addNewBuddy" id="CMs-zP-DTu" customClass="ZomNewBuddyViewController" customModule="Zom" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="RXP-J4-T8C"/>
+                        <viewControllerLayoutGuide type="bottom" id="KiG-F9-GRj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2Bs-Th-yme">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sjm-Hj-OyL">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kph-yx-oL4">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="551"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="new_friends_bg" translatesAutoresizingMaskIntoConstraints="NO" id="gE2-Eo-Nwq">
+                                                <rect key="frame" x="8" y="8" width="359" height="342"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Find your friend on Zom" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cOG-lm-Mu7">
+                                                <rect key="frame" x="40" y="25" width="295" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                <color key="textColor" red="0.011764705882352941" green="0.011764705882352941" blue="0.011764705882352941" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="zomkyi12@home.zom.im" textAlignment="center" minimumFontSize="10" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="gHe-H5-QuZ">
+                                                <rect key="frame" x="40" y="64.5" width="295" height="19"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="emailAddress" returnKeyType="done" enablesReturnKeyAutomatically="YES" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no" textContentType="email"/>
+                                                <connections>
+                                                    <outlet property="delegate" destination="CMs-zP-DTu" id="fcc-jX-Cmv"/>
+                                                </connections>
+                                            </textField>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aBk-ML-YTd">
+                                                <rect key="frame" x="40" y="91.5" width="295" height="1"/>
+                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="1" id="f8w-XV-FKx"/>
+                                                </constraints>
+                                            </view>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter your friend's Zom account. Yours is" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1JJ-bg-A2N">
+                                                <rect key="frame" x="40" y="100.5" width="295" height="14.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="foobar@home.zom.im" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YH3-VW-pFK">
+                                                <rect key="frame" x="40" y="123" width="295" height="14.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Send your invite link" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dXC-Kl-PG2">
+                                                <rect key="frame" x="40" y="367" width="295" height="18"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="NIO-RT-C3J">
+                                                <rect key="frame" x="88" y="393" width="199" height="45"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y4N-so-myH">
+                                                        <rect key="frame" x="0.0" y="0.0" width="45" height="45"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="45" id="OKc-OZ-vdr"/>
+                                                            <constraint firstAttribute="width" constant="45" id="kox-s6-mMu"/>
+                                                        </constraints>
+                                                        <state key="normal" image="ic_whatsapp"/>
+                                                        <connections>
+                                                            <action selector="sendWhatsAppInvite" destination="CMs-zP-DTu" eventType="touchUpInside" id="dam-dq-tuT"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vwC-0l-4yd">
+                                                        <rect key="frame" x="77" y="0.0" width="45" height="45"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="45" id="83G-88-dX4"/>
+                                                            <constraint firstAttribute="height" constant="45" id="uTx-Ip-lOE"/>
+                                                        </constraints>
+                                                        <state key="normal" image="ic_imessage"/>
+                                                        <connections>
+                                                            <action selector="sendSmsInvite" destination="CMs-zP-DTu" eventType="touchUpInside" id="9z2-gJ-EdA"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jUH-KV-zf6">
+                                                        <rect key="frame" x="154" y="0.0" width="45" height="45"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="45" id="FFb-6m-K1p"/>
+                                                            <constraint firstAttribute="width" constant="45" id="gdI-lA-YPf"/>
+                                                        </constraints>
+                                                        <state key="normal" image="ic_more"/>
+                                                        <connections>
+                                                            <action selector="showShareDialog:" destination="CMs-zP-DTu" eventType="touchUpInside" id="ZfT-Dm-gBn"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Standing next to them?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2De-1j-AiP">
+                                                <rect key="frame" x="40" y="480" width="295" height="18"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="hiZ-k5-EZf">
+                                                <rect key="frame" x="126" y="506" width="122" height="45"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uVe-aW-Egv">
+                                                        <rect key="frame" x="0.0" y="0.0" width="45" height="45"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="45" id="A8I-Re-fRD"/>
+                                                            <constraint firstAttribute="width" constant="45" id="oBk-xI-fFC"/>
+                                                        </constraints>
+                                                        <state key="normal" image="ic_qr_code"/>
+                                                        <connections>
+                                                            <action selector="scanQrCode:" destination="CMs-zP-DTu" eventType="touchUpInside" id="TAp-dw-U2C"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tDD-VV-lL9">
+                                                        <rect key="frame" x="77" y="0.0" width="45" height="45"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="45" id="SDm-N3-dQh"/>
+                                                            <constraint firstAttribute="width" constant="45" id="Z1d-ak-qoR"/>
+                                                        </constraints>
+                                                        <state key="normal" image="ic_airdrop"/>
+                                                        <connections>
+                                                            <action selector="showShareDialog:" destination="CMs-zP-DTu" eventType="touchUpInside" id="Q8u-D6-gaw"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fz0-a0-Rpy">
+                                                <rect key="frame" x="97" y="145" width="181" height="33"/>
+                                                <color key="backgroundColor" red="0.90588235294117647" green="0.15294117647058825" blue="0.3529411764705882" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="181" id="0Hy-rZ-3NY"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                                <state key="normal" title="Add Friend">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="16"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="addFriend:" destination="CMs-zP-DTu" eventType="touchUpInside" id="DLj-ev-8Ib"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" relation="lessThanOrEqual" secondItem="dXC-Kl-PG2" secondAttribute="trailing" constant="40" id="2jD-77-fqt"/>
+                                            <constraint firstItem="YH3-VW-pFK" firstAttribute="leading" relation="lessThanOrEqual" secondItem="kph-yx-oL4" secondAttribute="leading" constant="40" id="4li-da-Epw"/>
+                                            <constraint firstItem="gHe-H5-QuZ" firstAttribute="top" secondItem="cOG-lm-Mu7" secondAttribute="bottom" constant="19" id="57j-Oc-IZ0"/>
+                                            <constraint firstAttribute="trailing" relation="lessThanOrEqual" secondItem="2De-1j-AiP" secondAttribute="trailing" constant="40" id="6ft-4e-aqK"/>
+                                            <constraint firstItem="dXC-Kl-PG2" firstAttribute="top" secondItem="gE2-Eo-Nwq" secondAttribute="bottom" constant="17" id="AfG-TZ-yD6"/>
+                                            <constraint firstItem="NIO-RT-C3J" firstAttribute="top" secondItem="dXC-Kl-PG2" secondAttribute="bottom" constant="8" id="Ate-6e-I0Z"/>
+                                            <constraint firstAttribute="height" constant="551" id="BKE-VQ-FCF"/>
+                                            <constraint firstItem="gE2-Eo-Nwq" firstAttribute="top" secondItem="kph-yx-oL4" secondAttribute="top" constant="8" id="CC7-wf-7Oi"/>
+                                            <constraint firstItem="hiZ-k5-EZf" firstAttribute="centerX" secondItem="kph-yx-oL4" secondAttribute="centerX" id="E9z-Er-IHK"/>
+                                            <constraint firstAttribute="trailing" relation="lessThanOrEqual" secondItem="YH3-VW-pFK" secondAttribute="trailing" constant="40" id="ITv-qT-QPc"/>
+                                            <constraint firstItem="cOG-lm-Mu7" firstAttribute="top" secondItem="kph-yx-oL4" secondAttribute="top" constant="25" id="Ii4-hz-Tp6"/>
+                                            <constraint firstItem="fz0-a0-Rpy" firstAttribute="top" secondItem="YH3-VW-pFK" secondAttribute="bottom" constant="8" id="JmJ-uF-jwU"/>
+                                            <constraint firstItem="dXC-Kl-PG2" firstAttribute="leading" relation="lessThanOrEqual" secondItem="kph-yx-oL4" secondAttribute="leading" constant="40" id="MYc-NI-t79"/>
+                                            <constraint firstItem="YH3-VW-pFK" firstAttribute="top" secondItem="1JJ-bg-A2N" secondAttribute="bottom" constant="8" id="N23-s1-qQf"/>
+                                            <constraint firstItem="hiZ-k5-EZf" firstAttribute="top" secondItem="2De-1j-AiP" secondAttribute="bottom" constant="8" id="NA1-RI-1OE"/>
+                                            <constraint firstAttribute="trailing" relation="lessThanOrEqual" secondItem="gHe-H5-QuZ" secondAttribute="trailing" constant="40" id="PzN-yl-DxO"/>
+                                            <constraint firstItem="NIO-RT-C3J" firstAttribute="centerX" secondItem="kph-yx-oL4" secondAttribute="centerX" id="RDW-XU-7sV"/>
+                                            <constraint firstItem="fz0-a0-Rpy" firstAttribute="centerX" secondItem="kph-yx-oL4" secondAttribute="centerX" id="YRz-jK-ToW"/>
+                                            <constraint firstItem="1JJ-bg-A2N" firstAttribute="top" secondItem="aBk-ML-YTd" secondAttribute="bottom" constant="8" id="aQZ-T4-M05"/>
+                                            <constraint firstAttribute="trailing" relation="lessThanOrEqual" secondItem="cOG-lm-Mu7" secondAttribute="trailing" constant="40" id="bb4-jg-8A6"/>
+                                            <constraint firstAttribute="trailing" secondItem="gE2-Eo-Nwq" secondAttribute="trailing" constant="8" id="bex-kc-rOn"/>
+                                            <constraint firstItem="cOG-lm-Mu7" firstAttribute="leading" relation="lessThanOrEqual" secondItem="kph-yx-oL4" secondAttribute="leading" constant="40" id="cDu-ji-TbD"/>
+                                            <constraint firstItem="2De-1j-AiP" firstAttribute="top" secondItem="NIO-RT-C3J" secondAttribute="bottom" constant="42" id="dNs-cZ-YnH"/>
+                                            <constraint firstItem="2De-1j-AiP" firstAttribute="leading" relation="lessThanOrEqual" secondItem="kph-yx-oL4" secondAttribute="leading" constant="40" id="mhH-0K-b1o"/>
+                                            <constraint firstItem="1JJ-bg-A2N" firstAttribute="leading" relation="lessThanOrEqual" secondItem="kph-yx-oL4" secondAttribute="leading" constant="40" id="n93-oj-xez"/>
+                                            <constraint firstItem="aBk-ML-YTd" firstAttribute="top" secondItem="gHe-H5-QuZ" secondAttribute="bottom" constant="8" id="rcK-Pv-Jrh"/>
+                                            <constraint firstItem="gHe-H5-QuZ" firstAttribute="leading" relation="lessThanOrEqual" secondItem="kph-yx-oL4" secondAttribute="leading" constant="40" id="rco-ha-zQc"/>
+                                            <constraint firstAttribute="trailing" relation="lessThanOrEqual" secondItem="1JJ-bg-A2N" secondAttribute="trailing" constant="40" id="vWe-sI-Uqi"/>
+                                            <constraint firstItem="gE2-Eo-Nwq" firstAttribute="leading" secondItem="kph-yx-oL4" secondAttribute="leading" constant="8" id="wcM-bf-357"/>
+                                            <constraint firstItem="aBk-ML-YTd" firstAttribute="leading" secondItem="kph-yx-oL4" secondAttribute="leading" constant="40" id="yUa-KE-VHw"/>
+                                            <constraint firstAttribute="trailing" secondItem="aBk-ML-YTd" secondAttribute="trailing" constant="40" id="zdy-mj-s0z"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="kph-yx-oL4" secondAttribute="bottom" id="0eX-Bh-ZpL"/>
+                                    <constraint firstItem="kph-yx-oL4" firstAttribute="top" secondItem="Sjm-Hj-OyL" secondAttribute="top" id="9c4-gL-SWE"/>
+                                    <constraint firstAttribute="trailing" secondItem="kph-yx-oL4" secondAttribute="trailing" id="Bl7-nd-cQn"/>
+                                    <constraint firstItem="kph-yx-oL4" firstAttribute="width" secondItem="Sjm-Hj-OyL" secondAttribute="width" id="XTC-5y-khI"/>
+                                    <constraint firstItem="kph-yx-oL4" firstAttribute="leading" secondItem="Sjm-Hj-OyL" secondAttribute="leading" id="uS7-tH-Mzx"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Sjm-Hj-OyL" firstAttribute="top" secondItem="2Bs-Th-yme" secondAttribute="top" id="QN5-Ut-kcc"/>
+                            <constraint firstItem="KiG-F9-GRj" firstAttribute="top" secondItem="Sjm-Hj-OyL" secondAttribute="bottom" id="gfm-tX-tfF"/>
+                            <constraint firstAttribute="trailing" secondItem="Sjm-Hj-OyL" secondAttribute="trailing" id="odV-9g-tjy"/>
+                            <constraint firstItem="Sjm-Hj-OyL" firstAttribute="leading" secondItem="2Bs-Th-yme" secondAttribute="leading" id="uN7-sD-4HZ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="iMessageBt" destination="vwC-0l-4yd" id="W8N-Hr-k5s"/>
+                        <outlet property="qrCodeBt" destination="uVe-aW-Egv" id="EB9-oG-0sY"/>
+                        <outlet property="scrollView" destination="Sjm-Hj-OyL" id="1Up-OM-rLu"/>
+                        <outlet property="usersXmppAddressLb" destination="YH3-VW-pFK" id="gka-pZ-rkG"/>
+                        <outlet property="whatsAppBt" destination="Y4N-so-myH" id="P2a-To-yG7"/>
+                        <outlet property="xmppAddressTf" destination="gHe-H5-QuZ" id="7Ac-u6-KKv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="I5q-16-XVf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="165.59999999999999" y="1007.9460269865068"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ic_airdrop" width="32" height="32"/>
+        <image name="ic_imessage" width="42" height="40"/>
+        <image name="ic_more" width="27" height="7"/>
+        <image name="ic_qr_code" width="32" height="32"/>
+        <image name="ic_whatsapp" width="45" height="45"/>
+        <image name="new_friends_bg" width="375" height="342"/>
+    </resources>
+</document>

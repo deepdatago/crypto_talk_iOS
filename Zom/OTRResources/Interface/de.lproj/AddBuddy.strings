@@ -1,0 +1,18 @@
+/* Class = "UILabel"; text = "Tap the Zom invite link from your friend or scan their QR code now"; ObjectID = "1kj-Rl-D1L"; */
+"1kj-Rl-D1L.text" = "Klicke auf den Zom Einladungs Link von deinem Kontakt oder scanne jetzt seinen QR Code";
+
+/* Class = "UILabel"; text = "GOT INVITED?"; ObjectID = "AqM-V0-Y5G"; */
+"AqM-V0-Y5G.text" = "EINLADUNG ERHALTEN?";
+
+/* Class = "UILabel"; text = "Enter your friend's full username (ie. zomisfun.4x3f5g@zom.im) here:"; ObjectID = "K32-OO-iFS"; */
+"K32-OO-iFS.text" = "Geben Sie den vollständigen Nutzernamen Ihres Freundes (zB. Zomisfun.4x3f5g@zom.im) hier ein:";
+
+/* Class = "UILabel"; text = "Advanced"; ObjectID = "OfJ-vA-D7O"; */
+"OfJ-vA-D7O.text" = "erweitert";
+
+/* Class = "UIButton"; normalTitle = "Scan"; ObjectID = "hDU-3X-Uni"; */
+"hDU-3X-Uni.normalTitle" = "Scannen";
+
+/* Class = "UIButton"; normalTitle = "Share"; ObjectID = "keg-Ok-RMI"; */
+"keg-Ok-RMI.normalTitle" = "Teilen";
+

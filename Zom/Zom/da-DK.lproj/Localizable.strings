@@ -1,0 +1,36 @@
+/* Cancel button */
+"Cancel" = "Annuller";
+
+/* Prompt for confirm password */
+"Confirm New Password" = "Bekræft ny adgangskode";
+
+/* Button label to verify contact security */
+"Verify Contact" = "Bekræft nøgle";
+
+/* The placeholder text in the chat view where the message should go */
+"Send %@ encrypted message" = "Send sikker besked";
+
+/* Title for the about page */
+"About" = "Om";
+
+/* Label in buddy list for users that are away */
+"Away" = "Ikke til stede";
+
+/* String for button to connect connect */
+"Connect" = "Forbind";
+
+/* string to bring up language selector */
+"Language" = "Sprog";
+
+/* No comment provided by engineer. */
+"Me" = "Mig";
+
+/* Label text for password field on login screen */
+"Password" = "Adgangskode";
+
+/* Title for the Settings screen */
+"Settings" = "Indstillinger";
+
+/* The placeholder text in the chat view where the message should go */
+"Send plaintext message" = "Send besked";
+

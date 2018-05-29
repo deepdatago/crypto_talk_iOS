@@ -1,0 +1,42 @@
+/* Cancel button */
+"Cancel" = "Anuluj";
+
+/* Prompt for confirm password */
+"Confirm New Password" = "Potwierdź Nowe Hasło";
+
+/* Button label to verify contact security */
+"Verify Contact" = "Zweryfikuj klucz";
+
+/* for choosing your XMPP vCard display name */
+"Nickname" = "Pseudonim:";
+
+/* The placeholder text in the chat view where the message should go */
+"Send %@ encrypted message" = "Wyślij bezpieczną wiadomość";
+
+/* Title for the about page */
+"About" = "O Zom";
+
+/* Label in buddy list for users that are away */
+"Away" = "Z dala od komputera";
+
+/* String for button to connect connect */
+"Connect" = "Połącz";
+
+/* action button for deleting something */
+"Delete" = "Usuń";
+
+/* string to bring up language selector */
+"Language" = "Język";
+
+/* No comment provided by engineer. */
+"Me" = "Ja";
+
+/* Label text for password field on login screen */
+"Password" = "Hasło";
+
+/* Title for the Settings screen */
+"Settings" = "Ustawienia";
+
+/* The placeholder text in the chat view where the message should go */
+"Send plaintext message" = "Wyślij wiadomość";
+

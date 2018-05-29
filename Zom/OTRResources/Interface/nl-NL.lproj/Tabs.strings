@@ -1,0 +1,42 @@
+/* Class = "UIButton"; normalTitle = "Photo Stream"; ObjectID = "2YO-2a-YcG"; */
+"2YO-2a-YcG.normalTitle" = "Fotostroom";
+
+/* Class = "UIButton"; normalTitle = "Change Theme"; ObjectID = "Dxr-5S-HbB"; */
+"Dxr-5S-HbB.normalTitle" = "Thema wijzigen";
+
+/* Class = "UITabBarItem"; title = "Friends"; ObjectID = "LlX-wc-bzj"; */
+"LlX-wc-bzj.title" = "Vrienden";
+
+/* Class = "UIButton"; normalTitle = "Zom Services"; ObjectID = "V6b-cp-1dq"; */
+"V6b-cp-1dq.normalTitle" = "Zom-diensten";
+
+/* Class = "UIButton"; normalTitle = "Create a Group"; ObjectID = "WPP-eD-yKO"; */
+"WPP-eD-yKO.normalTitle" = "Groep aanmaken";
+
+/* Class = "UITabBarItem"; title = "Chats"; ObjectID = "XJU-FY-mH5"; */
+"XJU-FY-mH5.title" = "Gesprekken";
+
+/* Class = "UIButton"; normalTitle = "Sticker Share"; ObjectID = "iZ8-ah-hqP"; */
+"iZ8-ah-hqP.normalTitle" = "Stickers delen";
+
+/* Class = "UITabBarItem"; title = "Discover"; ObjectID = "mMW-ze-V2Y"; */
+"mMW-ze-V2Y.title" = "Ontdekken";
+
+/* Class = "UITabBarItem"; title = "Me"; ObjectID = "pL4-Qt-LL4"; */
+"pL4-Qt-LL4.title" = "Ik";
+
+/* Class = "UIButton"; normalTitle = "Advanced"; ObjectID = "0jb-cM-dW1"; */
+"0jb-cM-dW1.normalTitle" = "Geavanceerd";
+
+/* Class = "UICollectionViewController"; title = "Photo Stream"; ObjectID = "9Rk-Yf-uRu"; */
+"9Rk-Yf-uRu.title" = "Fotostroom";
+
+/* Class = "UIButton"; normalTitle = "Upgrade Now"; ObjectID = "WK5-FQ-F9x"; */
+"WK5-FQ-F9x.normalTitle" = "Nu bijwerken";
+
+/* Class = "UILabel"; text = "We need to upgrade your Zom account to a new server. We can automatically upgrade you to provide the best performance. If you are an advanced user, you can also choose your own server."; ObjectID = "ifp-gM-dKk"; */
+"ifp-gM-dKk.text" = "We moeten je Zom-account bijwerken naar een nieuwe server. We kunnen dit automatisch voor je doen. Als je een geavanceerd gebruiker bent kan je ook je eigen server kiezen.";
+
+/* Class = "UITableViewController"; title = "Zom Services"; ObjectID = "30x-cP-fK3"; */
+"30x-cP-fK3.title" = "Zom-diensten";
+

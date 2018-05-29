@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>kOTRXMPPResource</key>
+	<string>zom</string>
+	<key>kOTRFeedbackEmail</key>
+	<string>support@zom.im</string>
+	<key>GOOGLE_APP_ID</key>
+	<string>719137339288.apps.googleusercontent.com</string>
+	<key>GOOGLE_APP_SCOPE</key>
+	<string>https://www.googleapis.com/auth/googletalk</string>
+	<key>GitHubURL</key>
+	<string>https://github.com/zom/Zom-iOS/</string>
+	<key>FacebookAppURL</key>
+	<string>fb://profile/151354555075008</string>
+	<key>FacebookWebURL</key>
+	<string>https://www.facebook.com/chatsecure</string>
+	<key>TwitterAppURL</key>
+	<string>twitter://user?screen_name=ZomApp</string>
+	<key>TwitterWebURL</key>
+	<string>https://twitter.com/ZomApp</string>
+	<key>TransifexURL</key>
+	<string>https://www.transifex.com/projects/p/chatsecure</string>
+	<key>ProjectURL</key>
+	<string>https://zom.im</string>
+	<key>ShareBaseURL</key>
+	<string>https://zom.im/i/#</string>
+	<key>pushAPIURL</key>
+	<string>https://push.zom.im/api/v1/</string>
+	<key>StagingPushAPIURL</key>
+	<string>https://push-staging.zom.im/api/v1/</string>
+	<key>ShouldShowPushWarning</key>
+	<false/>
+	<key>AllowGroupOMEMO</key>
+	<true/>
+	<key>AllowDebugFileLogging</key>
+	<true/>
+	<key>DefaultGroupPlaintext</key>
+	<true/>
+</dict>
+</plist>

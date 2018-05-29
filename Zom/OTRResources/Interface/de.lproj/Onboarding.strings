@@ -1,0 +1,27 @@
+/* Class = "UIButton"; normalTitle = "Sign into an existing account"; ObjectID = "KMo-gZ-Dp1"; */
+"KMo-gZ-Dp1.normalTitle" = "Vorhandenes Konto nutzen";
+
+/* Class = "UIButton"; normalTitle = "WELCOME TO ZOM"; ObjectID = "REE-vf-IHA"; */
+"REE-vf-IHA.normalTitle" = "WILLKOMMEN BEI ZOM";
+
+/* Class = "UIButton"; normalTitle = "Switch Language"; ObjectID = "RzG-Jv-y0g"; */
+"RzG-Jv-y0g.normalTitle" = "Sprache wechseln";
+
+/* (No Commment) */
+"kXx-ta-MsF.title" = "Vorhandenes Konto nutzen";
+
+/* Class = "UIViewController"; title = "Switch Language"; ObjectID = "ls3-ll-Zye"; */
+"ls3-ll-Zye.title" = "Sprache wechseln";
+
+/* Class = "UIButton"; normalTitle = "Create an Account"; ObjectID = "xHH-ao-iyd"; */
+"xHH-ao-iyd.normalTitle" = "Konto erstellen";
+
+/* Class = "UIButton"; normalTitle = "Scan"; ObjectID = "5ph-Z8-dYh"; */
+"5ph-Z8-dYh.normalTitle" = "Scannen";
+
+/* Class = "UILabel"; text = "Add Friends!"; ObjectID = "a1f-w1-jOU"; */
+"a1f-w1-jOU.text" = "Kontakte hinzufügen!";
+
+/* Class = "UIButton"; normalTitle = "Share"; ObjectID = "f0b-EP-rxv"; */
+"f0b-EP-rxv.normalTitle" = "Teilen";
+

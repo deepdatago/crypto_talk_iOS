@@ -1,0 +1,36 @@
+/* Class = "UILabel"; text = "Leave"; ObjectID = "6IC-Zc-Fak"; */
+"6IC-Zc-Fak.text" = "Esci";
+
+/* Class = "UILabel"; text = "Mute notifications"; ObjectID = "Pfx-Vd-1eH"; */
+"Pfx-Vd-1eH.text" = "Disabilita le notifiche";
+
+/* Class = "UILabel"; text = "Members"; ObjectID = "gSK-tG-Uw9"; */
+"gSK-tG-Uw9.text" = "Membri";
+
+/* Class = "UILabel"; text = "Turn notifications on"; ObjectID = "jmT-gZ-9kU"; */
+"jmT-gZ-9kU.text" = "Abilita le notifiche";
+
+/* Class = "UILabel"; text = "Add Friends"; ObjectID = "xEH-ri-oqK"; */
+"xEH-ri-oqK.text" = "Aggiungi amici";
+
+/* Class = "UILabel"; text = "Share"; ObjectID = "zx5-44-k1l"; */
+"zx5-44-k1l.text" = "Condividi";
+
+/* Class = "UILabel"; text = " "; ObjectID = "Rna-SJ-kqj"; */
+"Rna-SJ-kqj.text" = " ";
+
+/* Class = "UILabel"; text = "Members"; ObjectID = "Gs1-n0-fbA"; */
+"Gs1-n0-fbA.text" = "Membri";
+
+/* Class = "UILabel"; text = "Leave"; ObjectID = "Q9m-UX-pKh"; */
+"Q9m-UX-pKh.text" = "Esci";
+
+/* Class = "UILabel"; text = " "; ObjectID = "j5Q-2d-sDd"; */
+"j5Q-2d-sDd.text" = " ";
+
+/* Class = "UILabel"; text = "Share"; ObjectID = "wIX-Dc-EQX"; */
+"wIX-Dc-EQX.text" = "Condividi";
+
+/* Class = "UILabel"; text = "Notifications"; ObjectID = "lPI-TB-wHg"; */
+"lPI-TB-wHg.text" = "Notifiche";
+

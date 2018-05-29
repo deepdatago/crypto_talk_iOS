@@ -1,0 +1,15 @@
+/* Class = "UILabel"; text = "GOT INVITED?"; ObjectID = "AqM-V0-Y5G"; */
+"AqM-V0-Y5G.text" = "¿LO HAN INVITADO?";
+
+/* Class = "UILabel"; text = "Enter your friend's full username (ie. zomisfun.4x3f5g@zom.im) here:"; ObjectID = "K32-OO-iFS"; */
+"K32-OO-iFS.text" = "Dirección de correo electrónico de la persona a la que desea invitar:";
+
+/* Class = "UILabel"; text = "Advanced"; ObjectID = "OfJ-vA-D7O"; */
+"OfJ-vA-D7O.text" = "Avanzado";
+
+/* Class = "UIButton"; normalTitle = "Scan"; ObjectID = "hDU-3X-Uni"; */
+"hDU-3X-Uni.normalTitle" = "Escanear";
+
+/* Class = "UIButton"; normalTitle = "Share"; ObjectID = "keg-Ok-RMI"; */
+"keg-Ok-RMI.normalTitle" = "Compartir";
+
