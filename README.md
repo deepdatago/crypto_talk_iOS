@@ -1,15 +1,13 @@
-# [Zom-iOS](https://github.com/zom/zom-iOS)
+# [CryptoTalk iOS](https://github.com/deepdatago/crypto_talk_iOS)
 
-[![Build Status](https://travis-ci.org/zom/Zom-iOS.svg?branch=master)](https://travis-ci.org/zom/Zom-iOS)
-
-Zom is a whitelabel fork of [ChatSecure](https://github.com/chatsecure/chatsecure-ios)
+Zom is a fork of [Zom-iOS](https://github.com/zom/zom-iOS)
 
 ## Getting Started
 
 You'll need the most recent version of Xcode, CocoaPods, Zom whitelabeling, ChatSecure source code, and dependencies. Also don't forget to add your SSH public key to GitHub or you'll get errors during the submodule step.
 
-     $ git clone https://github.com/zom/Zom-iOS.git
-     $ cd Zom-iOS
+     $ git clone https://github.com/deepdatago/crypto_talk_iOS.git
+     $ cd crypto_talk_iOS
      $ git submodule update --init --recursive
      $ carthage bootstrap --platform ios --project-directory ChatSecure # or carthage update --platform ios --project-directory ChatSecure
      $ bash ./ChatSecure/Submodules/CPAProxy/scripts/build-all.sh
