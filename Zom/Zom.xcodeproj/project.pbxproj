@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0736D25620E344B3006EAEFC /* RNCryptor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0736D25520E344B3006EAEFC /* RNCryptor.framework */; };
 		4EA0B3C5D625D7C7F5F743FE /* Pods_ZomPods_Zom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28AA00FB0160FE83A0C6770E /* Pods_ZomPods_Zom.framework */; };
 		630A50001E78858100A79C85 /* ZomProfileViewControllerSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630A4FFF1E78858100A79C85 /* ZomProfileViewControllerSource.swift */; };
 		6320C9041DFF6C410080F3BD /* ZomProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6320C9031DFF6C410080F3BD /* ZomProfileViewController.swift */; };
@@ -599,6 +600,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0736D25520E344B3006EAEFC /* RNCryptor.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RNCryptor.framework; path = Carthage/Build/iOS/RNCryptor.framework; sourceTree = "<group>"; };
 		07BE2A4D88AB89627914021C /* Pods-ZomPods-Zom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZomPods-Zom.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZomPods-Zom/Pods-ZomPods-Zom.release.xcconfig"; sourceTree = "<group>"; };
 		28AA00FB0160FE83A0C6770E /* Pods_ZomPods_Zom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZomPods_Zom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A4C60759935205C548465BD /* Pods-ZomPods-Zom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZomPods-Zom.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZomPods-Zom/Pods-ZomPods-Zom.debug.xcconfig"; sourceTree = "<group>"; };
@@ -1145,6 +1147,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0736D25620E344B3006EAEFC /* RNCryptor.framework in Frameworks */,
 				922F423D1F00EF7E00E34D65 /* TTTAttributedLabel.framework in Frameworks */,
 				922F42361F00EF7E00E34D65 /* HTMLReader.framework in Frameworks */,
 				920656981D9C4C1E00EC7034 /* ChatSecureCore.framework in Frameworks */,
@@ -1586,6 +1589,7 @@
 		E6C4F2998CB86DBC0FDCD035 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0736D25520E344B3006EAEFC /* RNCryptor.framework */,
 				C1B5F63F8FC6924BC02033C7 /* Pods.framework */,
 				28AA00FB0160FE83A0C6770E /* Pods_ZomPods_Zom.framework */,
 			);
@@ -2326,6 +2330,7 @@
 				"$(SRCROOT)/Carthage/Build/iOS/TTTAttributedLabel.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/XLForm.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/ZXingObjC.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RNCryptor.framework",
 			);
 			name = "[Carthage] Copy Frameworks";
 			outputPaths = (
