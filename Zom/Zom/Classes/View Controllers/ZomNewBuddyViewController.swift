@@ -88,12 +88,13 @@ MFMessageComposeViewControllerDelegate, OTRNewBuddyViewControllerDelegate {
         
         // Remove toolbar items. For an unkown reason, there would be a "+" there, otherwise.
         navigationItem.rightBarButtonItems = nil
-
+        
         // Only show WhatsApp button, if WhatsApp is installed.
         if let whatsAppUrl = URL(string: String(format: ZomNewBuddyViewController.whatsAppLink, "test")) {
-            if !UIApplication.shared.canOpenURL(whatsAppUrl) {
+            // [CRYPTO_TALK] hide whatsApp button
+            // if !UIApplication.shared.canOpenURL(whatsAppUrl) {
                 whatsAppBt.isHidden = true
-            }
+            // }
         } else {
             whatsAppBt.isHidden = true
         }
