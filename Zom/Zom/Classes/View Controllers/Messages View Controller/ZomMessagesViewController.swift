@@ -322,7 +322,7 @@ open class ZomMessagesViewController: OTRMessagesHoldTalkViewController, UIGestu
                         if (strongSelf.preparingView == nil) {
                             print(buddy.username)
                             let deepDatagoManager = DeepDatagoManager.sharedInstance()
-                            deepDatagoManager.getSummary(toAddress: (buddy.username.components(separatedBy: "@")[0]) as NSString)
+                            deepDatagoManager.getApprovedDetails(toAddress: (buddy.username.components(separatedBy: "@")[0]) as NSString)
                         }
                         strongSelf.updatePreparingView(true)
                     }
