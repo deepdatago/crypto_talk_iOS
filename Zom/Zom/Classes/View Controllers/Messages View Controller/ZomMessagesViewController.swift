@@ -317,13 +317,16 @@ open class ZomMessagesViewController: OTRMessagesHoldTalkViewController, UIGestu
                         // We have fingerprints, hide the preparing view
                         strongSelf.updatePreparingView(false)
                     } else {
+                        /* need to get approved details earlier
                         // [CRYPTO_TALK] uppon friend request approval, need to retrieve shared key
                         // from server
                         if (strongSelf.preparingView == nil) {
                             print(buddy.username)
                             let deepDatagoManager = DeepDatagoManager.sharedInstance()
-                            deepDatagoManager.getApprovedDetails(toAddress: (buddy.username.components(separatedBy: "@")[0]) as NSString)
+                            // deepDatagoManager.getApprovedDetails(toAddress: (buddy.username.components(separatedBy: "@")[0]) as NSString)
                         }
+                         // [CRYPO_TALK] end
+                        */
                         strongSelf.updatePreparingView(true)
                     }
                 } else {
