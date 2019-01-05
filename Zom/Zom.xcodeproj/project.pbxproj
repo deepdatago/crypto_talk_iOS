@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0736D25620E344B3006EAEFC /* RNCryptor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0736D25520E344B3006EAEFC /* RNCryptor.framework */; };
+		07F4609121DDB12B00D97731 /* DeepDatago.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F4606121DDB12A00D97731 /* DeepDatago.framework */; };
+		07F4609221DDB12B00D97731 /* DeepDatago.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 07F4606121DDB12A00D97731 /* DeepDatago.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4EA0B3C5D625D7C7F5F743FE /* Pods_ZomPods_Zom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28AA00FB0160FE83A0C6770E /* Pods_ZomPods_Zom.framework */; };
 		630A50001E78858100A79C85 /* ZomProfileViewControllerSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630A4FFF1E78858100A79C85 /* ZomProfileViewControllerSource.swift */; };
 		6320C9041DFF6C410080F3BD /* ZomProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6320C9031DFF6C410080F3BD /* ZomProfileViewController.swift */; };
@@ -580,6 +582,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				07F4609221DDB12B00D97731 /* DeepDatago.framework in Embed Frameworks */,
 				920656991D9C4C1E00EC7034 /* ChatSecureCore.framework in Embed Frameworks */,
 				9206569E1D9C4D1E00EC7034 /* OTRAssets.framework in Embed Frameworks */,
 			);
@@ -602,6 +605,7 @@
 /* Begin PBXFileReference section */
 		0736D25520E344B3006EAEFC /* RNCryptor.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RNCryptor.framework; path = Carthage/Build/iOS/RNCryptor.framework; sourceTree = "<group>"; };
 		07BE2A4D88AB89627914021C /* Pods-ZomPods-Zom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZomPods-Zom.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZomPods-Zom/Pods-ZomPods-Zom.release.xcconfig"; sourceTree = "<group>"; };
+		07F4606121DDB12A00D97731 /* DeepDatago.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DeepDatago.framework; path = Carthage/Build/iOS/DeepDatago.framework; sourceTree = "<group>"; };
 		28AA00FB0160FE83A0C6770E /* Pods_ZomPods_Zom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZomPods_Zom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A4C60759935205C548465BD /* Pods-ZomPods-Zom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZomPods-Zom.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZomPods-Zom/Pods-ZomPods-Zom.debug.xcconfig"; sourceTree = "<group>"; };
 		630A4FFF1E78858100A79C85 /* ZomProfileViewControllerSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ZomProfileViewControllerSource.swift; path = "Classes/View Controllers/ZomProfileViewControllerSource.swift"; sourceTree = "<group>"; };
@@ -1161,6 +1165,7 @@
 				922F423A1F00EF7E00E34D65 /* MBProgressHUD.framework in Frameworks */,
 				4EA0B3C5D625D7C7F5F743FE /* Pods_ZomPods_Zom.framework in Frameworks */,
 				922F42351F00EF7E00E34D65 /* FormatterKit.framework in Frameworks */,
+				07F4609121DDB12B00D97731 /* DeepDatago.framework in Frameworks */,
 				922F423B1F00EF7E00E34D65 /* PureLayout.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1477,6 +1482,7 @@
 		D99DEB631BABCEF700875194 = {
 			isa = PBXGroup;
 			children = (
+				07F4606121DDB12A00D97731 /* DeepDatago.framework */,
 				D99DEB701BABD1F300875194 /* Zom */,
 				A065EDB5202C52320084D788 /* Shared */,
 				A065EDA4202C50640084D788 /* ShareExtension */,
