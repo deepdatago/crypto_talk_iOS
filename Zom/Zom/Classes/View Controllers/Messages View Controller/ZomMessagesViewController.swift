@@ -12,6 +12,7 @@ import JSQMessagesViewController
 import OTRAssets
 import BButton
 import MBProgressHUD
+import DeepDatago
 
 open class ZomMessagesViewController: OTRMessagesHoldTalkViewController, UIGestureRecognizerDelegate, ZomPickStickerViewControllerDelegate, SupplementaryViewHandlerDelegate, OTRYapViewHandlerDelegateProtocol {
     
@@ -333,8 +334,17 @@ open class ZomMessagesViewController: OTRMessagesHoldTalkViewController, UIGestu
                     // Plaintext only, don't show the preparing view
                     strongSelf.updatePreparingView(false)
                 }
-                
-                if let xmppbuddy = buddy as? OTRXMPPBuddy, xmppbuddy.pendingApproval || xmppbuddy.subscription != .both {
+
+                // [CRYPTO_TALK] after approving a request, no need to display pendingApproval view
+                let deepDatagoManager = DeepDatagoManager.sharedInstance()
+                let allFriendsKey = deepDatagoManager.getAllFriendsKey(account: (buddy.username.components(separatedBy: "@")[0] as NSString))
+                if (allFriendsKey != nil && allFriendsKey!.length > 0) {
+                    if strongSelf.pendingApprovalView != nil {
+                        strongSelf.pendingApprovalView?.removeFromSuperview()
+                        strongSelf.pendingApprovalView = nil
+                    }
+                } // [CRYPTO_TALK] END after approving a request, no need to display pendingApproval view
+                else if let xmppbuddy = buddy as? OTRXMPPBuddy, xmppbuddy.pendingApproval || xmppbuddy.subscription != .both {
                     if strongSelf.pendingApprovalView == nil {
                         strongSelf.pendingApprovalView = UINib(nibName: "WaitingForApprovalView", bundle: nil).instantiate(withOwner: nil, options: nil)[0] as? UIView
                         strongSelf.view.addSubview(strongSelf.pendingApprovalView!)
