@@ -140,8 +140,8 @@ public class NetworkSnackBarManager: NSObject {
             switch xmpp.loginStatus {
             case .connecting, .connected, .securing, .secured, .authenticating:
                 showSnackBar(icon: "", text: NSLocalizedString("Signing in...", comment: "Text for snackbar when signing in"), button: nil)
-            case .disconnected:
-                showSnackBar(icon: "", text: NSLocalizedString("Network is offline.", comment: "Text for snackbar when disconnected"), button:(title:NSLocalizedString("CONNECT", comment: "Text for snackbar button when disconnected"),callback: {
+            case .disconnected: //[CRYPTO_TALK] mark "CONNECT" as auto connect in message
+                showSnackBar(icon: "", text: NSLocalizedString("Network is offline.", comment: "Text for snackbar when disconnected"), button:(title:NSLocalizedString("Will re-connect in seconds", comment: "Text for snackbar button when disconnected"),callback: {
                     if let xmppManager = self.xmppManager {
                         xmppManager.connectUserInitiated(true)
                     }
